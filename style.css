@@ -1,0 +1,139 @@
+body {
+
+  margin: 0;
+  background: #1f1534;
+  min-height: 100vh;
+  position: relative;
+ 
+  }
+  a {
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+
+  h1{
+    display: inline;
+    justify-content: left;
+    align-items: center;
+  }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+ul {
+display: flex;
+gap: 64px;
+list-style: none;
+margin: 0;
+padding: 0px;
+font-family: 'JetBrains Mono', monospace;
+font-weight: 400;
+font-size: medium 14;
+}
+
+
+#image{
+  background-color: #1f1534;
+}
+
+#logo {
+Width: 168px;
+Height: 23px;
+  }
+
+.page {  
+  margin: 62px auto 0;
+  width: 1000px;
+  background-color: #1f1534;
+  }
+  
+
+a {
+    color: #fff;
+    flex-direction: row;
+    padding: 0px;
+    gap: 64px;
+    position: flex;
+    width: 306px;
+    height: 30.05px;
+    right: 0px;
+    top: 0px;
+    
+  }
+
+  
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    margin-top: 106px;
+    margin-bottom:157px;
+  }
+
+  #text{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    
+    }
+
+  h1 {
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 40px;
+    font-weight: 700px;
+    font-size: 30px;
+    color:#fff;
+    width: 605px;
+    display: inline;
+    text-align: center;
+    
+  }
+
+  span {
+    color:#00BFA6;
+    font-weight:bold;
+  }
+  
+  section p {
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 28px;
+    color: #fff;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  
+  footer{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: medium 14px;
+  Font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+    }
+
+  #instagram{
+ width: 568px;
+ height: 0px;
+ margin: 0 auto 27px;
+ border-top: 1px solid #00BFA6;
+ text-align: center;
+ padding: 27px;
+
+    }
+  
+#lock {
+  position: fixed;
+  bottom: 20px;
+  left: 54px;
+}
